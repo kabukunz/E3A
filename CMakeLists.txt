@@ -50,7 +50,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(gmp)
 #include_directories("${gmp_SOURCE_DIR}")
-include_directories("/Users/max/Developer/Library/Graphics/GMP/myinst/include")
+# include_directories("/Users/max/Developer/Library/Graphics/GMP/myinst/include")
+include_directories("C:/Users/kabukunz/Developer/Library/gmp/build/install/include")
 
 add_subdirectory(src)
 add_subdirectory(examples)
