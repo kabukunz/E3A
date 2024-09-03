@@ -49,7 +49,8 @@ FetchContent_Declare(
     GIT_PROGRESS TRUE
 )
 FetchContent_MakeAvailable(gmp)
-
+#include_directories("${gmp_SOURCE_DIR}")
+include_directories("/Users/max/Developer/Library/Graphics/GMP/myinst/include")
 
 add_subdirectory(src)
 add_subdirectory(examples)

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.inl": "cpp",
+        "gmp.h": "c",
+        "core": "cpp"
+    }
+}
